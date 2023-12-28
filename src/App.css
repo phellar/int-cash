@@ -17,7 +17,7 @@ body{
 
 .container{
   margin: auto;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 .navbar{
   display: flex;
@@ -128,6 +128,8 @@ animation-name: animate;
 animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
+width: 600px;
+height: 600px;
 }
 
 @keyframes animate {
@@ -181,7 +183,7 @@ animation-timing-function: ease-in-out;
 
 .multiple-features{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding-top: 50px;
   background-color: white;
 }
@@ -243,7 +245,7 @@ animation-timing-function: ease-in-out;
 
 .mobile-menu{
 
-  font-size: 20px;
+  font-size: 35px;
   height: 50px;
   width: 50px;
   display: none;
@@ -345,7 +347,8 @@ animation-timing-function: ease-in-out;
    justify-content: center;
    align-items: center;
   width: 450px;
-  margin-top: 40px;
+  height: 450px;
+  margin-top: 15px;
   
 }
 
@@ -427,6 +430,7 @@ animation-timing-function: ease-in-out;
 
 .multi-card{
   padding-top: 70px;
+
 }
 .line{
 display: none;
@@ -435,7 +439,9 @@ display: none;
 }
 
 @media screen and ( max-width: 480px){
-
+  body{
+    overflow-x: hidden;
+  }
 
   .navbar{
     padding: 20px;
@@ -453,11 +459,20 @@ display: none;
     justify-content: center;
     align-items: center;
   }
+  
+  .hero-content-box{
+    padding: 30px;
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    padding-right: 50px;
+    line-height: 1.5;
+  }
 
   .hero-img{
     margin-top: 60px;
     height: 450px;
-    width: 400px;
+    width: 370px;
   }
   
   .hero-content-box{
@@ -472,20 +487,41 @@ display: none;
   }
   
   .ourFeatures{
-    /* display: flex;
+     /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 60px; */
+    align-items: center; */
+    /* padding-top: 60px;  */
+    padding-left: 0px;
     height: 600px;
-    width: 100vw;
+    width: 100%;
     padding-left: 20px;
   }
 
   .card{
-    margin-right: 20px;
-    height: 200px;
-    width: 370px;
+    height: 220px;
+    width: 350px;
+  }
+
+  .mcg-img{
+    height: 400px;
+    width: 300px;
   }
  
+}
+
+@media  screen and (max-width: 375px) {
+  .card{
+    height: 240px;
+    width: 300px;
+  }
+
+  .hero-img{
+    margin-top: 80px;
+  }
+
+  .ourFeatures{
+    padding-top: 100px;
+  
+  }
 }

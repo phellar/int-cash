@@ -13,7 +13,7 @@ export const MultipleFeatures = () => {
             <h1>Multiple Features we Offer</h1>
             <br></br>
               <div className="multiple-card-group">
-                      <img src={Phone} alt="App" width='350px' height= '500px'  />
+                      <img src={Phone} alt="App" width='400px' height= '500px'  className='mcg-img' />
                           <div className="line">
                             <div className="line-child"></div>
                           </div>

@@ -21,7 +21,7 @@ const Content = () => {
                                 <a href='#' className='hero-cta-1'>Send Money</a>
                                 <a href='#' className='hero-cta-2'>Open an account</a>
                             </div>
-                            <img src={heroImg} className='hero-img' width='500px'/>
+                            <img src={heroImg} className='hero-img'  width='500px'/>
 
                   </div>
                 </div>
