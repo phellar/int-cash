@@ -17,7 +17,7 @@ body{
 
 .container{
   margin: auto;
-  max-width: 1400px;
+  max-width: 1250px;
 }
 .navbar{
   display: flex;
@@ -128,8 +128,7 @@ animation-name: animate;
 animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
-width: 600px;
-height: 600px;
+
 }
 
 @keyframes animate {
