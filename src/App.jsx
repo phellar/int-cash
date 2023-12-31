@@ -18,7 +18,7 @@ function App() {
     <Features />
     <MultipleFeatures />
     <DownloadApp />
-    <Testimony />
+    {/* <Testimony /> */}
     </>
   )
 }

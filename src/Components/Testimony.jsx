@@ -34,7 +34,7 @@ const Testimony = () => {
 
   ] )
 
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(0 )
 
 
 

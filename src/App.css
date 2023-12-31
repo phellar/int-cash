@@ -318,12 +318,10 @@ margin-left: 30px;
  
 }
 .testimony-content-box{
-  display: flex;
-  justify-content: space-around;
+ display: grid;
+  grid-template-columns: 1fr 1fr;
   line-height: 1.5;
   align-items: center;
- 
-  /* padding-top: 50px; */
 }
 
 .testimony-img {
@@ -604,6 +602,16 @@ margin-left: 30px;
 
 .dollar{
   display: none;
+}
+
+
+.testimony-section{
+  height: 700px;
+  width: 100vw;
+  background: #e3e3e3;
+  display: flex;
+  justify-content: space-around;
+ 
 }
 
 }
