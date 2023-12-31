@@ -22,13 +22,8 @@ const Navbar = () => {
           <nav  className='navbar'>
               <div className='logo'></div>
 
-
-              <div className="mobile-menu" onClick={handleToggle}>
-
-                {isOpen ? <FaTimes/> : <FaBars/>}
-                
-
-              {isOpen && <ul>
+              <div className="menu-items">
+              <ul>
                         <li><a href='#'>About</a></li>
                         <li><a href='#'>Features</a></li>
                         <li><a href='#'>Blogs</a></li>
@@ -36,9 +31,25 @@ const Navbar = () => {
                         <a href='#' className='cta-1'>Login</a>
                         <a href='#'className='cta--2'>Sign up</a>
                     </ul>
-              }
+              </div>
 
-</div>
+
+              <div className="mobile-menu" onClick={handleToggle}>
+
+                {isOpen ? <FaTimes/> : <FaBars/>}
+
+                  {isOpen && <div className="mobile-navbar">
+                    <ul>
+                              <li><a href='#'>About</a></li>
+                              <li><a href='#'>Features</a></li>
+                              <li><a href='#'>Blogs</a></li>
+                              <li><a href='#'>Contact</a></li>
+                      </ul> 
+                  </div>
+             
+                  }
+
+              </div>
 
               {/* <ul className='nav-items'>
                         <li><a href='#'>About</a></li>

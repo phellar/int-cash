@@ -11,7 +11,6 @@ export const MultipleFeatures = () => {
     <section className='multiple-features'>
       <div className="container">
             <h1>Multiple Features we Offer</h1>
-            <br></br>
               <div className="multiple-card-group">
                       <img src={Phone} alt="App" width='400px' height= '500px'  className='mcg-img' />
                           <div className="line">
